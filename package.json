@@ -1,0 +1,26 @@
+{
+  "name": "git-repository-updater",
+  "version": "0.1.0",
+  "description": "A script that updates all branches in a git repository with the changes in master",
+  "main": "gupdater.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/d-gubert/git-repository-updater.git"
+  },
+  "keywords": [
+    "git",
+    "nodejs"
+  ],
+  "author": "Douglas Gubert",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/d-gubert/git-repository-updater/issues"
+  },
+  "homepage": "https://github.com/d-gubert/git-repository-updater#readme",
+  "dependencies": {
+    "wait.for": "^0.6.6"
+  }
+}
